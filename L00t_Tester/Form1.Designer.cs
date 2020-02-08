@@ -175,7 +175,7 @@
             this.btnSetUpGame.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnSetUpGame.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSetUpGame.ForeColor = System.Drawing.Color.White;
-            this.btnSetUpGame.Location = new System.Drawing.Point(325, 2);
+            this.btnSetUpGame.Location = new System.Drawing.Point(324, 11);
             this.btnSetUpGame.Name = "btnSetUpGame";
             this.btnSetUpGame.Size = new System.Drawing.Size(199, 30);
             this.btnSetUpGame.TabIndex = 9;
@@ -199,6 +199,7 @@
             this.lvWizard.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.WIZARD,
             this.ID});
+            this.lvWizard.HideSelection = false;
             this.lvWizard.Location = new System.Drawing.Point(5, 11);
             this.lvWizard.MultiSelect = false;
             this.lvWizard.Name = "lvWizard";
@@ -223,6 +224,7 @@
             this.lvWarrior.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
+            this.lvWarrior.HideSelection = false;
             this.lvWarrior.Location = new System.Drawing.Point(628, 11);
             this.lvWarrior.MultiSelect = false;
             this.lvWarrior.Name = "lvWarrior";
@@ -247,6 +249,7 @@
             this.lvCleric.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader3,
             this.columnHeader4});
+            this.lvCleric.HideSelection = false;
             this.lvCleric.Location = new System.Drawing.Point(5, 462);
             this.lvCleric.MultiSelect = false;
             this.lvCleric.Name = "lvCleric";
@@ -271,6 +274,7 @@
             this.lvThief.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader5,
             this.columnHeader6});
+            this.lvThief.HideSelection = false;
             this.lvThief.Location = new System.Drawing.Point(628, 462);
             this.lvThief.MultiSelect = false;
             this.lvThief.Name = "lvThief";
@@ -316,6 +320,7 @@
             this.lvPlayDeck.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader8,
             this.columnHeader9});
+            this.lvPlayDeck.HideSelection = false;
             this.lvPlayDeck.Location = new System.Drawing.Point(841, 12);
             this.lvPlayDeck.MultiSelect = false;
             this.lvPlayDeck.Name = "lvPlayDeck";
@@ -339,6 +344,7 @@
             this.lvLootDeck.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader7,
             this.columnHeader10});
+            this.lvLootDeck.HideSelection = false;
             this.lvLootDeck.Location = new System.Drawing.Point(841, 392);
             this.lvLootDeck.MultiSelect = false;
             this.lvLootDeck.Name = "lvLootDeck";
@@ -363,6 +369,7 @@
             this.listView2.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader11,
             this.columnHeader12});
+            this.listView2.HideSelection = false;
             this.listView2.Location = new System.Drawing.Point(213, 483);
             this.listView2.MultiSelect = false;
             this.listView2.Name = "listView2";
